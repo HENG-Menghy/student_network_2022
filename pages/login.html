@@ -4,9 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Add the Play CDN script tag-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> <!-- for using Montserrat font-->
     <title>Login page</title>
   </head>
   <body>
-    
+    <div class="flex flex-row w-[600px] h-[420px] bg-[greenyellow] mx-auto my-[80px] rounded-[25px]">
+      <div class="w-[40%] h-full bg-[lightblue] rounded-l-[25px] bg-gradient-to-b from-[#AFFFF5] to-[#D2F1ED] ">
+        <header class="font-medium text-[18px] text-[#014A8E] mt-[35px] ml-[25px] mb-[10px]"> Login </header>
+        <label class="font-medium text-[10px] ml-[27px]"> Email </label> <br>
+        <input type="email" class="w-[80%] border-[1px] border-[#20B07C] ml-[27px] mt-[5px] mb-[20px]"><br>
+        <label class="font-medium text-[10px] ml-[27px]"> Password </label> <br>
+        <input type="password" class="w-[80%] border-[1px] border-[#20B07C] ml-[27px] my-[5px]"><br>
+        <div class="flex flex-row ml-[27px] mt-[5px]">
+          <input type="checkbox" class="mt-[8px]">
+          <span class="font-normal text-[#696969] text-[9px] ml-[8px] mt-[8px]">Remember me</span>
+        </div>
+        <a href="./Home.html">
+          <button class="w-[80%] ml-[27px] mt-[30px] bg-[#24AEE9] rounded-[5px] border-none text-[#fff] text-[12px] p-[2px] hover:bg-sky-600"> Login </button>
+        </a> 
+        <div class="font-medium text-[#0D6AD8] text-[10px] my-[20px] ml-[85px]">Forgot password?</div>
+        <hr class="text-[#C3C3C3]">
+        <div class="font-medium text-[#696969] text-[9px] my-[15px] ml-[75px]">Do not have an account?</div>
+        <a href="./Signup.html">
+          <div class="font-medium text-[#0D6AD8] text-[10px] ml-[110px]">Sign up</div>
+        </a>
+      </div>
+      <img class="w-[60%] h-full rounded-r-[25px]" src="/assets/images/img_girl.jpg" alt="image girl">
+    </div> 
   </body>
 </html>
