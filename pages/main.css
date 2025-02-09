@@ -1,16 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.text-menu{
-    font-family: 'Montserrat';
-    font-weight: normal;
-    font-size: 10px;
-  }
-  svg{
-    margin-left: 8px;
-    width: 16px;
-    height: 16px;
-    float: left;
-  }
+.text-menu {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 10px;
+}
+svg {
+  margin-left: 8px;
+  width: 16px;
+  height: 16px;
+  float: left;
+}
